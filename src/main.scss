@@ -1,0 +1,21 @@
+@use './styles/themes/defaultTheme' as *;
+@use './styles/util' as *;
+@use './styles/base' as *;
+@use './styles/layout/app' as *;
+
+*,
+::after,
+::before{
+    
+}
+body{
+    background-color: rgb(51, 89, 122);;
+}
+
+.pfp{
+    filter: drop-shadow(10px 6px 4px #4444dd4c);
+    border-radius:50%;
+    float:left;
+    height: 9em;
+    width: 9em;
+}
